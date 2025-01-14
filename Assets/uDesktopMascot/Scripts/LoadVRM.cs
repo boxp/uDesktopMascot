@@ -144,6 +144,9 @@ namespace uDesktopMascot
             // モデルの位置を設定（原点に配置）
             model.transform.position = Vector3.zero;
 
+            // モデルの大きさを調整
+            model.transform.localScale = Vector3.one * 3f;
+
             // Y軸に180度回転
             model.transform.Rotate(0, 180, 0);
 
